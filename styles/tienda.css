@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/*HEADER*/
+
+header {
+	line-height: 12rem;
+	height: 12rem;
+}
+
+header h1 {
+	font-size: 2rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+header li {
+	float: left;
+	width: 18.75%;
+	text-align: center;
+    text-transform: uppercase;
+}
+
+header ul::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+
+header li:nth-child(3) {
+	width: 25%;
+}
+header li a {
+	font-weight: 900;
+	font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: black;
+}
+/*search button*/
+.navbar{
+    margin-bottom: 50px;
+}
+
+.search {
+    width: 60%;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+  }
+
+.search-input {
+    width: 100%;
+    border: 3px solid #F8F9FA;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+.btnBuscar{
+    border-radius: 0 3px 3px 0;
+    height: 100%;
+    padding: 14px;
+    color: white ;
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.55;
+}
+
+
+/*galeria*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#galeria .column{
+    flex:33.33%;
+    width: auto;
+   overflow: hidden;
+    padding: 4px 4px;
+    height: auto;
+    padding:20px;
+    box-shadow: 1px 0px #e1e3e4, 1px 1px #e1e3e4;
+}
+
+#galeria .column img{
+    width:100%;
+    height:70%;
+}
+
+.column h4{
+    color:#818A8F;
+    display: block;
+    line-height: 1.55;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.column .btn-item{
+    font-family:'oswald',sans-serif;;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.column .precio{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
